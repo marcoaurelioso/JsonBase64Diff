@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>    
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.11" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsonBase64Diff.Api\JsonBase64Diff.Api.csproj" />
+    <ProjectReference Include="..\JsonBase64Diff.Application.Service\JsonBase64Diff.Application.Service.csproj" />
+    <ProjectReference Include="..\JsonBase64Diff.Domain\JsonBase64Diff.Domain.csproj" />
+    <ProjectReference Include="..\JsonBase64Diff.Infrastructure\JsonBase64Diff.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
